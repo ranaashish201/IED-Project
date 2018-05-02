@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/activity_afternext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.cricketscore.afternext">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Winner team may decide"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bat"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bowl"
+            android:layout_weight="1"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Toss winner name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player1 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player2 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player3 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player4 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player5 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player6 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player7 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player8 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player9 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player10 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player11 name"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend"
+        android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Toss loser name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player1 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player2 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player3 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player4 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player5 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player6 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player7 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player8 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player9 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player10 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Player11 name"
+                android:inputType="textCapWords"
+                android:imeOptions="actionSend"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#5D8AA8"
+    tools:context="com.example.android.cricketscore.MainActivity"
+    android:padding="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HawkEye"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:layout_margin="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:password="true"/>
+
+
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginbtn"
+        android:layout_marginTop="43dp" />
+
+    <Button
+        android:text="reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetbtn"
+        android:layout_marginTop="43dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:hint="Old Password"
+        android:layout_marginTop="20dp"
+        android:password="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:hint="New Password"
+        android:layout_marginTop="20dp"
+        android:password="true"/>
+
+</LinearLayout>
